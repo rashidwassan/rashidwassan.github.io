@@ -19827,7 +19827,8 @@ this.b=b
 this.c=c},
 uO:function uO(a){this.a=a},
 Lg:function Lg(a){var _=this
-_.e=_.d=0
+_.d=0
+_.e=1
 _.a=null
 _.b=a
 _.c=null},
@@ -66310,12 +66311,14 @@ x5(a){return T.dB(new A.ex(new V.a7j(this,a),null),null,null)}}
 V.a7l.prototype={
 $0(){var s=this.a,r=s.d
 $.Ax()
-s.d=C.f.cw(r+1,3)},
+s.d=C.f.cw(r+1,3)
+s.e=0},
 $S:1}
 V.a7n.prototype={
 $0(){var s=this.a,r=s.d
 $.Ax()
-s.d=C.f.cw(r-1,3)},
+s.d=C.f.cw(r-1,3)
+s.e=0},
 $S:1}
 V.a7k.prototype={
 $0(){var s=this.a
@@ -66326,20 +66329,20 @@ $0(){var s=this.a
 s.e=C.f.cw(s.e-1,5)},
 $S:1}
 V.a7j.prototype={
-$2(a,b){var s,r,q,p,o,n,m,l=null,k=this.b,j=b.b>720,i=j?C.m:C.n,h=j?1:0,g=K.fY(25),f=j?l:350,e=this.a,d=t.X
-h=T.eY(new T.c7(new V.an(80,0,80,0),T.qo(C.cz,H.b([T.ail(g,T.aY(new T.tf(0.46153846153846156,D.ajN(D.YY(0,1),new V.a7d(e),5,l,new V.a7e(e),!0,new L.o7(l),!1,C.m),l),l,f)),M.aC(l,l,C.k,l,l,new S.d6(l,l,l,new K.cD(C.Z,C.Z,new P.bC(25,25),new P.bC(25,25)),l,new T.p6(C.ab,C.cz,C.aP,H.b([C.a6,C.z],t.it),l,l),C.X),l,80,l,l,l,l,1/0),new T.fW(C.cz,l,l,new T.c7(new V.an(0,0,0,5),new T.c7(new V.an(16,16,16,16),T.dK(H.b([new T.j7(1,C.c9,B.aj0(L.DU(C.p9,C.j,l),35,new V.a7f(e),new V.an(0,0,0,0)),l),new R.u_(5,e.e,new G.Tt(C.j,C.EA,C.Ey,new X.cX(K.fY(5),C.r)),l),new T.j7(1,C.c9,B.aj0(L.DU(C.pa,C.j,l),35,new V.a7g(e),new V.an(0,0,0,0)),l)],d),C.jZ,C.v),l),l),l)],d),C.bu),l),h)
-j=j?1:0
-g=L.b6("MOBILE APP",l,l,B.eb(C.a8,16,C.ap,l),l,l)
-f=T.aY(l,15,l)
-s=L.b6($.Ax()[e.d].b,l,l,B.eb(C.j,35,C.ap,1.3),l,l)
-r=T.aY(l,10,l)
-q=L.b6($.Ax()[e.d].c,l,l,A.bj(l,l,C.af,l,l,l,l,l,l,l,l,15,l,l,l,1.5,!0,l,l,l,l,l,l,l,l),l,l)
-p=T.aY(l,25,l)
-o=K.fY(8)
-o=B.XE(T.dB(new T.c7(new V.an(28,0,28,0),L.b6("PREVIOUS APP",l,l,A.bj(l,l,C.j,l,l,l,l,l,l,l,l,13,l,C.P,l,l,!0,l,l,l,l,l,l,l,l),l,l),l),l,l),C.a8,55,l,8,new V.a7h(e),l,new X.cX(o,new Y.cT(C.a8,1,C.R)))
-n=T.aY(l,l,16)
-m=K.fY(8)
-return T.hm(C.ab,l,l,l,M.aC(l,T.Dm(H.b([h,T.eY(T.dX(H.b([g,f,s,r,q,p,T.dK(H.b([o,n,B.XE(T.dB(new T.c7(new V.an(28,0,28,0),L.b6("NEXT APP",l,l,A.bj(l,l,C.a8,l,l,l,l,l,l,l,l,13,l,C.P,l,l,!0,l,l,l,l,l,l,l,l),l,l),l),l,l),l,55,C.nv,8,new V.a7i(e),l,new X.cX(m,new Y.cT(C.a8,1,C.R)))],d),C.K,C.v)],d),C.aj,C.aM,C.v),j)],d),C.aH,i,l,C.K,C.v,l,l,C.aT),C.k,l,l,l,l,l,l,l,l,l,l),!1,l,!1,1,k,l,k,!0)},
+$2(a,b){var s,r,q,p,o,n,m=null,l=this.b,k=b.b>720,j=k?C.m:C.n,i=k?1:0,h=k?new V.an(70,0,70,0):new V.an(16,0,16,32),g=K.fY(25),f=k?m:350,e=this.a,d=t.X
+i=T.eY(new T.c7(h,T.qo(C.cz,H.b([T.ail(g,T.aY(new T.tf(0.46153846153846156,D.ajN(D.YY(0,1),new V.a7d(e),5,m,new V.a7e(e),!0,new L.o7(m),!1,C.m),m),m,f)),M.aC(m,m,C.k,m,m,new S.d6(m,m,m,new K.cD(C.Z,C.Z,new P.bC(25,25),new P.bC(25,25)),m,new T.p6(C.ab,C.cz,C.aP,H.b([C.a6,C.z],t.it),m,m),C.X),m,80,m,m,m,m,1/0),new T.fW(C.cz,m,m,new T.c7(new V.an(0,0,0,5),new T.c7(new V.an(16,16,16,16),T.dK(H.b([new T.j7(1,C.c9,B.aj0(L.DU(C.p9,C.j,m),35,new V.a7f(e),new V.an(0,0,0,0)),m),new R.u_(5,e.e,new G.Tt(C.j,C.EA,C.Ey,new X.cX(K.fY(5),C.r)),m),new T.j7(1,C.c9,B.aj0(L.DU(C.pa,C.j,m),35,new V.a7g(e),new V.an(0,0,0,0)),m)],d),C.jZ,C.v),m),m),m)],d),C.bu),m),i)
+k=k?1:0
+h=L.b6("MOBILE APP",m,m,B.eb(C.a8,16,C.ap,m),m,m)
+g=T.aY(m,15,m)
+f=L.b6($.Ax()[e.d].b,m,m,B.eb(C.j,35,C.ap,1.3),m,m)
+s=T.aY(m,10,m)
+r=L.b6($.Ax()[e.d].c,m,m,A.bj(m,m,C.af,m,m,m,m,m,m,m,m,15,m,m,m,1.5,!0,m,m,m,m,m,m,m,m),m,m)
+q=T.aY(m,25,m)
+p=K.fY(8)
+p=B.XE(T.dB(new T.c7(new V.an(28,0,28,0),L.b6("PREVIOUS APP",m,m,A.bj(m,m,C.j,m,m,m,m,m,m,m,m,13,m,C.P,m,m,!0,m,m,m,m,m,m,m,m),m,m),m),m,m),C.a8,55,m,8,new V.a7h(e),m,new X.cX(p,new Y.cT(C.a8,1,C.R)))
+o=T.aY(m,m,16)
+n=K.fY(8)
+return T.hm(C.ab,m,m,m,M.aC(m,T.Dm(H.b([i,T.eY(T.dX(H.b([h,g,f,s,r,q,T.dK(H.b([p,o,B.XE(T.dB(new T.c7(new V.an(28,0,28,0),L.b6("NEXT APP",m,m,A.bj(m,m,C.a8,m,m,m,m,m,m,m,m,13,m,C.P,m,m,!0,m,m,m,m,m,m,m,m),m,m),m),m,m),m,55,C.nv,8,new V.a7i(e),m,new X.cX(n,new Y.cT(C.a8,1,C.R)))],d),C.K,C.v)],d),C.aj,C.aM,C.v),k)],d),C.aH,j,m,C.K,C.v,m,m,C.aT),C.k,m,m,m,m,m,m,m,m,m,m),!1,m,!1,1,l,m,l,!0)},
 $S:38}
 V.a7e.prototype={
 $1(a){var s=this.a
@@ -66347,7 +66350,7 @@ return a<s.e?s.GK():s.Gk()},
 $S:402}
 V.a7d.prototype={
 $2(a,b){var s=null,r=this.a
-return U.jf("assets/"+$.Ax()[r.d].a+"/r"+r.e+".png",s,s,s,s)},
+return U.jf("assets/"+$.Ax()[r.d].a+"/"+r.e+".png",s,s,s,s)},
 $S:403}
 V.a7f.prototype={
 $0(){return this.a.GK()},
@@ -66460,7 +66463,7 @@ $S:410}
 G.xb.prototype={
 aJ(){return new G.NU(null,C.o)}}
 G.NU.prototype={
-UN(){var s=this,r=null,q=G.d4(r,P.bY(0,2000,0),0,r,1,r,s)
+UN(){var s=this,r=null,q=G.d4(r,P.bY(0,1500,0),0,r,1,r,s)
 s.d=q
 s.e=S.hV(C.c7,q,r)
 s.d.dh(0)
@@ -70882,8 +70885,8 @@ q($,"aG2","acD",function(){return H.b([Q.oK(!1,new A.abH(),"HOME"),Q.oK(!1,new A
 q($,"aGg","apS",function(){return H.b([D.a3d("10+","Clients"),D.a3d("15+","Projects"),D.a3d("3","Awards"),D.a3d("2","Years of\nExperience")],H.R("n<qp*>"))})
 q($,"aGf","apR",function(){return H.b([M.HD(85,"Dart"),M.HD(77,"Python"),M.HD(60,"Javascript"),M.HD(78,"Java"),M.HD(60,"C++")],H.R("n<qi*>"))})
 q($,"aGj","apU",function(){return H.b([F.akG("CEO IsaaTech","SAAD MUJEEB","https://scontent.fkhi4-1.fna.fbcdn.net/v/t31.18172-8/10989230_10202588311147770_7304844486081199964_o.jpg?_nc_cat=103&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeH6JEuX7AYI8b_cdfzvFszyv92IRnxqezq_3YhGfGp7OmX0GrclCovlkyVjfbtx0FYRe9TcLE4P9jTmadJfozw0&_nc_ohc=LTHDmtsm0XUAX9V0Azn&_nc_ht=scontent.fkhi4-1.fna&oh=a04ba873bada8cf35f3c907297356ba2&oe=612BAF6A","This is a testimonial text from Saad Mujeeb. Rashid is a professional at what he does and never ceases to amaze me with his beautiful works. I will like to work with him in the future again."),F.akG("MERN Stack Developer","MUZAMMIL NAWAZ","https://scontent.fkhi4-2.fna.fbcdn.net/v/t1.6435-9/133366322_2859342830950543_7865627328469365281_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=ad2b24&_nc_eui2=AeHSutzNK0Gi6OffeN-_sfNcxZ2gcOywNqTFnaBw7LA2pJPU_1Pp5bMsGZCO6RnfLtAJSSJWTa3vHOacvznGaqqS&_nc_ohc=2q0qII1stBoAX9vaJ0d&_nc_ht=scontent.fkhi4-2.fna&oh=61c24f5c10a74ab982cb8d0707910761&oe=612BD8A9","This is a testimonial text from Muzzamil Nawaz. Rashid is a professional at what he does and never ceases to amaze me with his beautiful works. I will like to work with him in the future again.")],H.R("n<qA*>"))})
-q($,"aFR","Ax",function(){var p="reapet",o="Reapet is an pet adopting application that takes care of your pet by providing lots of services like: online marketplace for animal food, care taking services & much more!"
-return H.b([B.ad1(o,p,"REAPET\nPET ADOPTING APP"),B.ad1(o,p,"ASLYDOST\nHELPER HIRING APP"),B.ad1(o,p,"KEYLESS\nCAR REMOTE")],H.R("n<AY*>"))})
+q($,"aFR","Ax",function(){var p="Reapet is an pet adopting application that takes care of your pet by providing lots of services like: online marketplace for animal food, care taking services & much more!"
+return H.b([B.ad1(p,"reapet","REAPET\nPET ADOPTING APP"),B.ad1("Keyless is a car remote app which allows you to control your car via blutooth connection. The app is cross-platform and is carefully developed for flexibility.","keyless","KEYLESS\nCAR REMOTE"),B.ad1(p,"reapet","ASLYDOST\nHELPER HIRING APP")],H.R("n<AY*>"))})
 q($,"aD2","agi",function(){return N.auA(null,H.R("mU*"))})})();(function nativeSupport(){!function(){var s=function(a){var m={}
 m[a]=1
 return Object.keys(hunkHelpers.convertToFastObject(m))[0]}
