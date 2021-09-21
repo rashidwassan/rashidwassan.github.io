@@ -13,39 +13,6 @@
   -->
   <base href="/">
 
-  <style>
-    body {
-      height: 500vh !important;  /* Bigger than 100% to allow scroll */
-      position: static !important;  /* Override absolute from flutter */
-      overflow-y: scroll !important; /* Allows verticall scrolling */
-      overflow-x: hidden !important;
-      touch-action: pan-y !important;  /* Allows vertical scrolling */
-      overscroll-behavior: none; /* Avoid bouncing scrolling on top/bottom edget */
-    }
-
-     /* Centers flutter canvas with a size of the viewport*/
-    flt-glass-pane {
-      position: fixed !important; /* Overrides absolute from flutter  */
-      top: 50vh  !important;
-      left: 50vw  !important;
-      max-width: 100vw  !important;
-      max-height: 100vh  !important;
-      transform: translate(-50vw, -50vh)  !important;
-    }
-
-    /* 
-    Scrollbar hide doesn't work on iOS, they add a default one when overflow:true and  -webkit-overflow-scrolling: touch; 
-    Sadly since iOS 13, this value is forced on iOS -> https://developer.apple.com/documentation/safari-release-notes/safari-13-release-notes
-    */
-    ::-webkit-scrollbar {
-      display: false;
-      width: 0px;
-      height: 0px;  /* Remove scrollbar space */
-      background: transparent;  /* Optional: just make scrollbar invisible */
-    }
-    
-  </style>
-
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="A new Flutter project.">
@@ -74,7 +41,7 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=3963130241');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=952526782');
       });
     }
   </script>
