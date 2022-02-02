@@ -65693,10 +65693,10 @@ gX(){return"windows"},
 gpw(){return"\\"}}
 A.a07.prototype={}
 A.G1.prototype={
-E(a,b){return new A.vV(new A.y3(null),new A.a_1(),"Rashid Wassan - Software Solutions",A.amc(null,"Lato"),A.br(b).a2u(B.co,B.K,B.D,B.co),B.u7,!1,null)}}
+E(a,b){return new A.vV(new A.y3(null),new A.a_1(),"Rashid Wassan - Software Solutions",A.amc(null,"Lato"),A.br(b).a2u(B.cp,B.K,B.D,B.cp),B.u7,!1,null)}}
 A.a_1.prototype={
 $2(a,b){var s=null,r=A.b([new A.d8(450,"MOBILE",B.b3,1),new A.d8(800,"TABLET",B.b3,1),new A.d8(1000,"TABLET",B.b3,1),new A.d8(1200,"DESKTOP",B.b3,1),new A.d8(2460,"4K",B.b3,1)],t.ym)
-return A.fX(B.X,A.aF(s,s,B.co,s,s,s,s,s,s),s,r,new A.Dc(b,s),!1,s,!0,1,s,s,450,!1)},
+return A.fX(B.X,A.aF(s,s,B.cp,s,s,s,s,s,s),s,r,new A.Dc(b,s),!1,s,!0,1,s,s,450,!1)},
 $S:117}
 A.BX.prototype={
 gX(a){return this.b}}
@@ -65768,7 +65768,7 @@ return A.aF(s,A.cw(A.b([A.d9(A.b([A.jz(q.b,s,s,40),A.an(s,s,15),A.ba(q.a,s,s,s,s
 $S:385}
 A.ae9.prototype={
 $1(a){var s=null,r=A.dV(16),q=A.dV(16),p=A.an(s,24,s),o=A.an(s,s,1/0),n=A.ba("This feature is under development & will be available soon!",s,s,s,s,s,s,s,A.bb(s,s,B.i,s,s,s,s,s,s,s,s,18,s,s,s,s,!0,s,s,s,s,s,s,s,s),B.h4,s,s),m=A.an(s,24,s),l=A.ba("Sorry for inconvienience.",s,s,s,s,s,s,s,A.bb(s,s,B.D,s,s,s,s,s,s,s,s,s,s,B.A,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),k=A.an(s,32,s),j=A.dV(8),i=t.t
-return new A.qj(A.b([A.aF(s,new A.bv(new A.ab(24,24,24,24),A.cw(A.b([p,o,n,m,l,k,new A.bv(new A.ab(24,0,24,0),A.vY(A.d9(A.b([A.ba("Dismiss",s,s,s,s,s,s,s,A.bb(s,s,B.i,s,s,s,s,s,s,s,s,s,s,B.A,s,s,!0,s,s,s,s,s,s,s,s),s,s,s)],i),B.aI,B.m),B.D,0,0,40,s,0,s,s,new A.ae8(a),s,new A.c1(j,B.l)),s)],i),B.a1,B.q,B.cG),s),s,s,new A.du(B.co,s,s,q,s,s,B.aj),s,s,s,s)],i),new A.ab(1,1,1,1),B.D,new A.c1(r,B.l),s)},
+return new A.qj(A.b([A.aF(s,new A.bv(new A.ab(24,24,24,24),A.cw(A.b([p,o,n,m,l,k,new A.bv(new A.ab(24,0,24,0),A.vY(A.d9(A.b([A.ba("Dismiss",s,s,s,s,s,s,s,A.bb(s,s,B.i,s,s,s,s,s,s,s,s,s,s,B.A,s,s,!0,s,s,s,s,s,s,s,s),s,s,s)],i),B.aI,B.m),B.D,0,0,40,s,0,s,s,new A.ae8(a),s,new A.c1(j,B.l)),s)],i),B.a1,B.q,B.cG),s),s,s,new A.du(B.cp,s,s,q,s,s,B.aj),s,s,s,s)],i),new A.ab(1,1,1,1),B.D,new A.c1(r,B.l),s)},
 $S:386}
 A.ae8.prototype={
 $0(){A.pF(this.a,!1).tz(0,null)},
@@ -65986,7 +65986,7 @@ q=s.ch
 p=A.bb(o,o,h,o,o,o,o,o,o,o,o,r,o,q,o,o,!0,o,o,o,o,o,o,B.C,o)
 h=s.a
 h=new A.tD(h,p,o,12,1/0,1,o,!0,!0,B.bi,o,o,o,o)
-return new A.E2(A.aF(o,A.agm(A.cw(A.b([new A.eO(2,B.aT,new A.bv(new A.ab(32,32,32,32),m,o),o),new A.bv(new A.ab(24,0,24,0),l,o),j,i,new A.bv(new A.ab(0,8,0,8),A.dv(h,o,o,o),o)],k),B.a1,B.aI,B.m),!0),o,o,new A.du(B.co,n,o,o,o,o,B.aj),o,o,o,o),o)}}
+return new A.E2(A.aF(o,A.agm(A.cw(A.b([new A.eO(2,B.aT,new A.bv(new A.ab(32,32,32,32),m,o),o),new A.bv(new A.ab(24,0,24,0),l,o),j,i,new A.bv(new A.ab(0,8,0,8),A.dv(h,o,o,o),o)],k),B.a1,B.aI,B.m),!0),o,o,new A.du(B.cp,n,o,o,o,o,B.aj),o,o,o,o),o)}}
 A.V7.prototype={
 $0(){A.pG(this.a,A.mO(new A.V6(),null,t.z))},
 $S:1}
@@ -69044,9 +69044,9 @@ B.ML=new A.fM(B.eN,"systemBlue",null,B.eN,B.i1,B.i0,B.i3,B.eN,B.i1,B.i0,B.i3,0)
 B.xI=new A.B(4280032286)
 B.xP=new A.B(4280558630)
 B.MN=new A.fM(B.i,"systemBackground",null,B.i,B.p,B.i,B.p,B.i,B.xI,B.i,B.xP,0)
-B.cp=new A.B(4042914297)
+B.co=new A.B(4042914297)
 B.dn=new A.B(4028439837)
-B.MP=new A.fM(B.cp,null,null,B.cp,B.dn,B.cp,B.dn,B.cp,B.dn,B.cp,B.dn,0)
+B.MP=new A.fM(B.co,null,null,B.co,B.dn,B.co,B.dn,B.co,B.dn,B.co,B.dn,0)
 B.hP=new A.a88()
 B.eK=new A.KZ()
 B.vI=new A.a8d()
@@ -69199,7 +69199,6 @@ B.hZ=new A.B(16777215)
 B.eM=new A.B(1723645116)
 B.xz=new A.B(1724434632)
 B.xA=new A.B(1929379840)
-B.co=new A.B(2238254)
 B.B=new A.B(2315255808)
 B.i_=new A.B(2583691263)
 B.F=new A.B(3019898879)
@@ -69208,6 +69207,7 @@ B.xD=new A.B(4039164096)
 B.D=new A.B(4279612786)
 B.xJ=new A.B(4280132082)
 B.xM=new A.B(4280295714)
+B.cp=new A.B(4280428334)
 B.xQ=new A.B(4280838066)
 B.xR=new A.B(4281152315)
 B.i2=new A.B(4281348144)
