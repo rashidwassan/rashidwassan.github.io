@@ -1,0 +1,73 @@
+[debug] [2022-02-02T21:22:20.277Z] ----------------------------------------------------------------------
+[debug] [2022-02-02T21:22:20.278Z] Command:       /opt/homebrew/Cellar/node@14/14.18.3/bin/node /opt/homebrew/bin/firebase init
+[debug] [2022-02-02T21:22:20.278Z] CLI Version:   10.1.4
+[debug] [2022-02-02T21:22:20.278Z] Platform:      darwin
+[debug] [2022-02-02T21:22:20.278Z] Node Version:  v14.18.3
+[debug] [2022-02-02T21:22:20.281Z] Time:          Thu Feb 03 2022 02:22:20 GMT+0500 (Pakistan Standard Time)
+[debug] [2022-02-02T21:22:20.281Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-02-02T21:22:20.312Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-02-02T21:22:20.312Z] > authorizing via signed-in user (rashidwassaan@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/rashidwassan/Projects/profile
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-02-02T21:22:25.995Z] Using project from CLI flag: myportfolio-dc7ff
+[debug] [2022-02-02T21:22:25.997Z] > refreshing access token with scopes: []
+[debug] [2022-02-02T21:22:25.998Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-02-02T21:22:26.419Z] <<< HTTP RESPONSE 200 {"date":"Wed, 02 Feb 2022 21:22:26 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-02-02T21:22:26.470Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/myportfolio-dc7ff [none]
+[debug] [2022-02-02T21:22:27.445Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/myportfolio-dc7ff 200
+[debug] [2022-02-02T21:22:27.445Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/myportfolio-dc7ff {"projectId":"myportfolio-dc7ff","projectNumber":"971615700790","displayName":"myportfolio","name":"projects/myportfolio-dc7ff","resources":{"hostingSite":"myportfolio-dc7ff"},"state":"ACTIVE"}
+[info] i  Using project myportfolio-dc7ff (myportfolio) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-02-02T21:24:51.658Z] ----------------------------------------------------------------------
+[debug] [2022-02-02T21:24:51.659Z] Command:       /opt/homebrew/Cellar/node@14/14.18.3/bin/node /opt/homebrew/bin/firebase init
+[debug] [2022-02-02T21:24:51.659Z] CLI Version:   10.1.4
+[debug] [2022-02-02T21:24:51.659Z] Platform:      darwin
+[debug] [2022-02-02T21:24:51.659Z] Node Version:  v14.18.3
+[debug] [2022-02-02T21:24:51.664Z] Time:          Thu Feb 03 2022 02:24:51 GMT+0500 (Pakistan Standard Time)
+[debug] [2022-02-02T21:24:51.664Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-02-02T21:24:51.695Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-02-02T21:24:51.695Z] > authorizing via signed-in user (rashidwassaan@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/rashidwassan/Projects/profile
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
